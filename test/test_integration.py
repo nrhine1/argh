@@ -782,7 +782,7 @@ def test_multiarg_toggle():
             toggle2 = True,
             toggle3 = False,
             foo = 3):
-        return "toggle1: {}, toggle2: {}, toggle3: {}, foo: {}".format(\
+        return "toggle1: {0}, toggle2: {1}, toggle3: {2}, foo: {3}".format(\
             toggle1, toggle2, toggle3, foo)
 
     p = DebugArghParser()
